@@ -8,7 +8,7 @@
 >daftar_nilai.py berisi modul untuk: tambah_data, ubah_data, hapus_data, dan cari_data.
 ## Tambah Data
 
-* Fungsi `tambah_data()` untuk menambahkan data mahasiswa seperti nama, nim, nilai tugas, nilai uts dan nilai uas dengan menggunakan fungsi `input_nama()`, `input_nim()`, `input_tugas()`, `input_uts()`, `input_uas()`. Data yang diinput akan masuk ke dalam direktori `data_mahasiswa = {}`.
+* Fungsi `tambah_data()` untuk menambahkan data mahasiswa seperti nama, nim, nilai tugas, nilai uts dan nilai uas dengan menggunakan fungsi `input_nama()`, `input_nim()`, `input_ntugas()`, `input_nuts()`, `input_nuas()`. Data yang diinput akan masuk ke dalam direktori `data_mahasiswa = {}`.
 
 ```python
    def tambah_data():
