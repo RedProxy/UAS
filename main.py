@@ -3,7 +3,7 @@ from view.view_nilai import *
 
 #Mulai
 print("===============================================================")
-print("|                           Program 1                         |")
+print("|                PROGRAM INPUT NILAI MAHASISWA                |")
 print("===============================================================")
 
 while True:
@@ -32,4 +32,4 @@ while True:
         break
 
     else:
-        print("Upss ada yang salah, silahkan cek kembali.")
+        print("Ada yang salah, Silahkan cek kembali.")

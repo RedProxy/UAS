@@ -53,10 +53,10 @@ def ubah_data():
             data[nama][5] = data[nama][2] *30/100 + data[nama][3]*35/100 + data[nama][4] *35/100
             print('\nData berhasil di ubah!')
         else:
-            print("\nmenu tidak ditemukan.")
+            print("\nMenu tidak ditemukan.")
 
     else:
-        print("'{}' tidak ditemukan.".format(nama))
+        print("'{}' Tidak ditemukan.".format(nama))
 
 # Menghapus data
 def hapus_data():
@@ -65,7 +65,7 @@ def hapus_data():
         del data[nama]
         print("\nData '{}' berhasil dihapus.".format(nama))
     else:
-        print("'{}' tidak ditemukan.".format(nama))
+        print("'{}' Tidak ditemukan.".format(nama))
 
 # Mencari data
 def cari_data():
@@ -81,4 +81,4 @@ def cari_data():
             .format(nama, data[nama][1], data[nama][2], data[nama][3], data[nama][4], data[nama][5]))
         print('--------------------------------------------------------------')
     else:
-        print("'{}' tidak ditemukan.".format(nama))
+        print("'{}' Tidak ditemukan.".format(nama))
