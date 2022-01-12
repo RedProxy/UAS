@@ -170,7 +170,7 @@
 >input_nilai.py berisi modul untuk: input_data yang meminta pengguna memasukkan data.
 ## Input Data
 
-* Untuk menginput data yang terdiri dari beberapa fungsi yaitu `input_nama()`, `input_nim()`, `input_tugas()`, `input_uts()`, `input_uas()`. 
+* Untuk menginput data yang terdiri dari beberapa fungsi yaitu `input_nama()`, `input_nim()`, `input_ntugas()`, `input_nuts()`, `input_nuas()`. 
 
 ```python
 def input_nama():
